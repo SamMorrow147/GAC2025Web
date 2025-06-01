@@ -96,8 +96,8 @@ export default function Layout({ children, title, description }: LayoutProps) {
             <div>
               <h3 className="text-xl font-bold mb-4">Contact</h3>
               <p className="text-gray-300">
-                Email: info@gregcarterhockey.com<br />
-                Phone: (555) 123-4567
+                Email: info@gchockey.com<br />
+                Phone: 978-371-3355
               </p>
             </div>
           </div>
