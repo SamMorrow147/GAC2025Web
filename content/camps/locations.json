@@ -1,0 +1,298 @@
+{
+  "states": [
+    {
+      "name": "Alaska",
+      "abbreviation": "AK",
+      "locations": [
+        {
+          "name": "UAA Seawolf Sports Complex",
+          "city": "Eagle River",
+          "state": "AK",
+          "fullAddress": "UAA Seawolf Sports Complex, Eagle River, AK"
+        },
+        {
+          "name": "McDonald Center",
+          "city": "Eagle River",
+          "state": "AK",
+          "fullAddress": "McDonald Center, Eagle River, AK"
+        },
+        {
+          "name": "Soldotna Regional Sports Complex",
+          "city": "Soldotna",
+          "state": "AK",
+          "fullAddress": "Soldotna Regional Sports Complex, Soldotna, AK"
+        }
+      ]
+    },
+    {
+      "name": "Connecticut",
+      "abbreviation": "CT",
+      "locations": [
+        {
+          "name": "South Windsor Ice Arena",
+          "city": "South Windsor",
+          "state": "CT",
+          "fullAddress": "South Windsor Ice Arena, South Windsor, CT"
+        }
+      ]
+    },
+    {
+      "name": "Illinois",
+      "abbreviation": "IL",
+      "locations": [
+        {
+          "name": "Addison Ice Arena",
+          "city": "Addison",
+          "state": "IL",
+          "fullAddress": "Addison Ice Arena, Addison, IL"
+        },
+        {
+          "name": "American Heartland Ice Arena",
+          "city": "Lincolnwood",
+          "state": "IL",
+          "fullAddress": "American Heartland Ice Arena, Lincolnwood, IL"
+        },
+        {
+          "name": "Canlan Ice Sports",
+          "city": "Romeoville",
+          "state": "IL",
+          "fullAddress": "Canlan Ice Sports, Romeoville, IL"
+        },
+        {
+          "name": "North Shore Ice Arena",
+          "city": "Northbrook",
+          "state": "IL",
+          "fullAddress": "North Shore Ice Arena, Northbrook, IL"
+        }
+      ]
+    },
+    {
+      "name": "Massachusetts",
+      "abbreviation": "MA",
+      "locations": [
+        {
+          "name": "Canton Ice House",
+          "city": "Canton",
+          "state": "MA",
+          "fullAddress": "Canton Ice House, Canton, MA"
+        },
+        {
+          "name": "Chase Arena",
+          "city": "Natick",
+          "state": "MA",
+          "fullAddress": "Chase Arena, Natick, MA"
+        },
+        {
+          "name": "Ed Burns Ice Arena",
+          "city": "Arlington",
+          "state": "MA",
+          "fullAddress": "Ed Burns Ice Arena, Arlington, MA"
+        },
+        {
+          "name": "Essex Ice Arena",
+          "city": "Middleton",
+          "state": "MA",
+          "fullAddress": "Essex Ice Arena, Middleton, MA"
+        },
+        {
+          "name": "Hyannis Community Center",
+          "city": "Hyannis",
+          "state": "MA",
+          "fullAddress": "Hyannis Community Center, Hyannis, MA"
+        },
+        {
+          "name": "New England Sports Center",
+          "city": "Marlborough",
+          "state": "MA",
+          "fullAddress": "New England Sports Center, Marlborough, MA"
+        },
+        {
+          "name": "New England Sports Village",
+          "city": "Attleboro",
+          "state": "MA",
+          "fullAddress": "New England Sports Village, Attleboro, MA"
+        },
+        {
+          "name": "O'Brien Arena",
+          "city": "Woburn",
+          "state": "MA",
+          "fullAddress": "O'Brien Arena, Woburn, MA"
+        },
+        {
+          "name": "Pilgrim Ice Arena",
+          "city": "Hingham",
+          "state": "MA",
+          "fullAddress": "Pilgrim Ice Arena, Hingham, MA"
+        },
+        {
+          "name": "Pirelli Veterans Arena",
+          "city": "Franklin",
+          "state": "MA",
+          "fullAddress": "Pirelli Veterans Arena, Franklin, MA"
+        },
+        {
+          "name": "Raymond Bourque Arena",
+          "city": "Beverly",
+          "state": "MA",
+          "fullAddress": "Raymond Bourque Arena, Beverly, MA"
+        },
+        {
+          "name": "Roche Arena",
+          "city": "West Roxbury",
+          "state": "MA",
+          "fullAddress": "Roche Arena, West Roxbury, MA"
+        },
+        {
+          "name": "The Bog Ice Arena",
+          "city": "Kingston",
+          "state": "MA",
+          "fullAddress": "The Bog Ice Arena, Kingston, MA"
+        },
+        {
+          "name": "Valley Forum",
+          "city": "Haverhill",
+          "state": "MA",
+          "fullAddress": "Valley Forum, Haverhill, MA"
+        },
+        {
+          "name": "Valley Sports Arena",
+          "city": "Concord",
+          "state": "MA",
+          "fullAddress": "Valley Sports Arena, Concord, MA"
+        }
+      ]
+    },
+    {
+      "name": "Michigan",
+      "abbreviation": "MI",
+      "locations": [
+        {
+          "name": "Lakeshore Sports Centre",
+          "city": "Muskegon",
+          "state": "MI",
+          "fullAddress": "Lakeshore Sports Centre, Muskegon, MI"
+        }
+      ]
+    },
+    {
+      "name": "Missouri",
+      "abbreviation": "MO",
+      "locations": [
+        {
+          "name": "Maryville University Hockey Center",
+          "city": "Chesterfield",
+          "state": "MO",
+          "fullAddress": "Maryville University Hockey Center, Chesterfield, MO"
+        }
+      ]
+    },
+    {
+      "name": "New Hampshire",
+      "abbreviation": "NH",
+      "locations": [
+        {
+          "name": "Tri Town Ice Arena",
+          "city": "Hooksett",
+          "state": "NH",
+          "fullAddress": "Tri Town Ice Arena, Hooksett, NH"
+        }
+      ]
+    },
+    {
+      "name": "New Jersey",
+      "abbreviation": "NJ",
+      "locations": [
+        {
+          "name": "Jersey Shore Arena",
+          "city": "Wall Township",
+          "state": "NJ",
+          "fullAddress": "Jersey Shore Arena, Wall Township, NJ"
+        }
+      ]
+    },
+    {
+      "name": "New York",
+      "abbreviation": "NY",
+      "locations": [
+        {
+          "name": "Bill Gray's Ice Arena",
+          "city": "Rochester",
+          "state": "NY",
+          "fullAddress": "Bill Gray's Ice Arena, Rochester, NY"
+        },
+        {
+          "name": "Three Rivers Athletic Complex",
+          "city": "Baldwinsville",
+          "state": "NY",
+          "fullAddress": "Three Rivers Athletic Complex, Baldwinsville, NY"
+        }
+      ]
+    },
+    {
+      "name": "Pennsylvania",
+      "abbreviation": "PA",
+      "locations": [
+        {
+          "name": "Hatfield Arena",
+          "city": "Colmar",
+          "state": "PA",
+          "fullAddress": "Hatfield Arena, Colmar, PA"
+        },
+        {
+          "name": "Steel Ice Center",
+          "city": "Bethlehem",
+          "state": "PA",
+          "fullAddress": "Steel Ice Center, Bethlehem, PA"
+        }
+      ]
+    },
+    {
+      "name": "Rhode Island",
+      "abbreviation": "RI",
+      "locations": [
+        {
+          "name": "Boss Ice Arena",
+          "city": "Kingston",
+          "state": "RI",
+          "fullAddress": "Boss Ice Arena, Kingston, RI"
+        }
+      ]
+    },
+    {
+      "name": "Vermont",
+      "abbreviation": "VT",
+      "locations": [
+        {
+          "name": "Cairns Arena",
+          "city": "South Burlington",
+          "state": "VT",
+          "fullAddress": "Cairns Arena, South Burlington, VT"
+        },
+        {
+          "name": "Spartan Arena",
+          "city": "Rutland",
+          "state": "VT",
+          "fullAddress": "Spartan Arena, Rutland, VT"
+        },
+        {
+          "name": "Union Arena",
+          "city": "Woodstock",
+          "state": "VT",
+          "fullAddress": "Union Arena, Woodstock, VT"
+        }
+      ]
+    },
+    {
+      "name": "Virginia",
+      "abbreviation": "VA",
+      "locations": [
+        {
+          "name": "Chilled Ponds Arena",
+          "city": "Chesapeake",
+          "state": "VA",
+          "fullAddress": "Chilled Ponds Arena, Chesapeake, VA"
+        }
+      ]
+    }
+  ]
+} 
