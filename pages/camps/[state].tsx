@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import campData from '../../content/camps/camp-locations.json'
+import { CampData, StateData } from '../../types/camps'
 
 export default function StatePage() {
   const router = useRouter()
@@ -11,7 +12,10 @@ export default function StatePage() {
     return <div>Loading...</div>
   }
 
-  const stateData = campData.camps[state]
+  // Type assertion for the imported JSON data
+  const typedCampData = campData as unknown as CampData
+  const stateData = typedCampData.camps[state] as StateData | undefined
+
   if (!stateData) {
     return <div>State not found</div>
   }
