@@ -32,11 +32,6 @@
       "static/chunks/main.js",
       "static/chunks/pages/camps/[state]/[location].js"
     ],
-    "/clinics": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/clinics.js"
-    ],
     "/contact": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
