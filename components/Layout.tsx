@@ -10,12 +10,34 @@ interface LayoutProps {
 }
 
 export default function Layout({ children, title, description }: LayoutProps) {
+  const defaultTitle = 'Greg Carter Hockey'
+  const defaultDescription = 'Elite hockey training camps, clinics, and leagues by Greg Carter.'
+  const siteTitle = title || defaultTitle
+  const siteDescription = description || defaultDescription
+
   return (
     <>
       <Head>
-        <title>{title || 'Greg Carter Hockey'}</title>
-        <meta name="description" content={description || 'Elite hockey training camps, clinics, and leagues by Greg Carter.'} />
-        <link rel="icon" href="/favicon.ico" />
+        <title>{siteTitle}</title>
+        <meta name="description" content={siteDescription} />
+        
+        {/* Favicon */}
+        <link rel="icon" type="image/png" href="/Logo/Insignia.png" />
+        <link rel="apple-touch-icon" href="/Logo/Insignia.png" />
+        
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://gregcarterhockey.com/" />
+        <meta property="og:title" content={siteTitle} />
+        <meta property="og:description" content={siteDescription} />
+        <meta property="og:image" content="https://gregcarterhockey.com/Logo/Insignia.png" />
+        
+        {/* Twitter */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://gregcarterhockey.com/" />
+        <meta property="twitter:title" content={siteTitle} />
+        <meta property="twitter:description" content={siteDescription} />
+        <meta property="twitter:image" content="https://gregcarterhockey.com/Logo/Insignia.png" />
       </Head>
 
       <nav className="bg-white shadow-md">
