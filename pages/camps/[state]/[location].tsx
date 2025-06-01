@@ -135,7 +135,7 @@ export default function LocationPage() {
           <div className="mb-4 sm:mb-6">
             <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4">Camp Information</h2>
             <p className="text-gray-600 mb-3 sm:mb-4 text-sm sm:text-base">
-              Our website is temporarily down but you can still register for Summer 2025 Summer Hockey Camps via the links below!
+              Our website is temporarily down but you can still register for Summer 2025 Hockey Camps via the links below!
               <br /><br />
               Questions? Please call our office at <a href="tel:978-371-3355" className="text-accent underline">978-371-3355</a> or email us at <a href="mailto:info@gchockey.com" className="text-accent underline">info@gchockey.com</a>.
               <br /><br />
