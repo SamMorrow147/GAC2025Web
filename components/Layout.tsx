@@ -60,7 +60,6 @@ export default function Layout({ children, title, description }: LayoutProps) {
               />
             </Link>
             <div className="hidden md:flex space-x-8">
-              {/*
               <Link href="/camps" className="text-gray-600 hover:text-primary">
                 Camps
               </Link>
@@ -76,7 +75,6 @@ export default function Layout({ children, title, description }: LayoutProps) {
               <Link href="/contact" className="text-gray-600 hover:text-primary">
                 Contact
               </Link>
-              */}
             </div>
           </div>
         </div>
