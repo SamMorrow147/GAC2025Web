@@ -1,5 +1,5 @@
-import CampsPage from '../components/CampsPage'
+import HomePage from '../components/HomePage'
 
 export default function Home() {
-  return <CampsPage />
+  return <HomePage />
 } 
