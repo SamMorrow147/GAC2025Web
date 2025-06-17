@@ -67,14 +67,14 @@ const SpinningContainer = styled.div<{ isSpinning: boolean }>`
 const RedBracket = styled.div<{ itemCount?: number }>`
   margin-left: 18px;
   margin-right: 8px;
-  min-height: 76%;
   width: 20px;
   height: ${props => props.itemCount === 5 ? '210px' : '130px'};
-  margin-top: 16px;
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
+  margin-top: 0;
+  padding-top: 0;
 
   svg {
     position: absolute;
