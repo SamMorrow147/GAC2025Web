@@ -273,6 +273,114 @@
               "soldOut": false,
               "itineraryUrl": "#",
               "registerUrl": "https://campscui.active.com/orgs/GregCartersEuropeanHockeyCamp?season=3547344&location=467004"
+            },
+            {
+              "startDate": "",
+              "endDate": "",
+              "campNumber": "",
+              "campType": "",
+              "price": "",
+              "times": "",
+              "ages": "",
+              "soldOut": false,
+              "itineraryUrl": "#",
+              "registerUrl": "https://campscui.active.com/orgs/GregCartersEuropeanHockeyCamp?season=3547344&location=467004"
+            },
+            {
+              "startDate": "",
+              "endDate": "",
+              "campNumber": "",
+              "campType": "",
+              "price": "",
+              "times": "",
+              "ages": "",
+              "soldOut": false,
+              "itineraryUrl": "#",
+              "registerUrl": "https://campscui.active.com/orgs/GregCartersEuropeanHockeyCamp?season=3547344&location=467004"
+            },
+            {
+              "startDate": "",
+              "endDate": "",
+              "campNumber": "",
+              "campType": "",
+              "price": "",
+              "times": "",
+              "ages": "",
+              "soldOut": false,
+              "itineraryUrl": "#",
+              "registerUrl": "https://campscui.active.com/orgs/GregCartersEuropeanHockeyCamp?season=3547344&location=467004"
+            },
+            {
+              "startDate": "",
+              "endDate": "",
+              "campNumber": "",
+              "campType": "",
+              "price": "",
+              "times": "",
+              "ages": "",
+              "soldOut": false,
+              "itineraryUrl": "#",
+              "registerUrl": "https://campscui.active.com/orgs/GregCartersEuropeanHockeyCamp?season=3547344&location=467004"
+            },
+            {
+              "startDate": "",
+              "endDate": "",
+              "campNumber": "",
+              "campType": "",
+              "price": "",
+              "times": "",
+              "ages": "",
+              "soldOut": false,
+              "itineraryUrl": "#",
+              "registerUrl": "https://campscui.active.com/orgs/GregCartersEuropeanHockeyCamp?season=3547344&location=467004"
+            },
+            {
+              "startDate": "",
+              "endDate": "",
+              "campNumber": "",
+              "campType": "",
+              "price": "",
+              "times": "",
+              "ages": "",
+              "soldOut": false,
+              "itineraryUrl": "#",
+              "registerUrl": "https://campscui.active.com/orgs/GregCartersEuropeanHockeyCamp?season=3547344&location=467004"
+            },
+            {
+              "startDate": "",
+              "endDate": "",
+              "campNumber": "",
+              "campType": "",
+              "price": "",
+              "times": "",
+              "ages": "",
+              "soldOut": false,
+              "itineraryUrl": "#",
+              "registerUrl": "https://campscui.active.com/orgs/GregCartersEuropeanHockeyCamp?season=3547344&location=467004"
+            },
+            {
+              "startDate": "",
+              "endDate": "",
+              "campNumber": "",
+              "campType": "",
+              "price": "",
+              "times": "",
+              "ages": "",
+              "soldOut": false,
+              "itineraryUrl": "#",
+              "registerUrl": "https://campscui.active.com/orgs/GregCartersEuropeanHockeyCamp?season=3547344&location=467004"
+            },
+            {
+              "startDate": "",
+              "endDate": "",
+              "campNumber": "",
+              "campType": "",
+              "price": "",
+              "times": "",
+              "ages": "",
+              "soldOut": false,
+              "itineraryUrl": "#",
+              "registerUrl": "https://campscui.active.com/orgs/GregCartersEuropeanHockeyCamp?season=3547344&location=467004"
             }
           ],
           "registrationUrl": "https://campscui.active.com/orgs/GregCartersEuropeanHockeyCamp?season=3547344&location=467004"
@@ -509,6 +617,33 @@
             }
           ],
           "registrationUrl": "https://campscui.active.com/orgs/GregCartersEuropeanHockeyCamp?season=3547344&location=1849745"
+        }
+      ]
+    },
+    "europe": {
+      "name": "Europe",
+      "locations": [
+        {
+          "id": "zurich",
+          "name": "Zurich Ice Arena",
+          "city": "Zurich",
+          "state": "",
+          "fullAddress": "Zurich Ice Arena, Zurich, Switzerland",
+          "sessions": [
+            {
+              "startDate": "8/12/2025",
+              "endDate": "8/16/2025",
+              "campNumber": "EU-1",
+              "campType": "Total Skills Development",
+              "price": "€600.00",
+              "times": "9:00am - 3:00pm",
+              "ages": "7 - 15 yrs",
+              "soldOut": false,
+              "itineraryUrl": "#",
+              "registerUrl": "#"
+            }
+          ],
+          "registrationUrl": "#"
         }
       ]
     },

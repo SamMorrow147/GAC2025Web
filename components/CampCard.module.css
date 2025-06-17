@@ -1,0 +1,133 @@
+.cardContainer {
+  --card-height: 300px;
+  --card-width: calc(var(--card-height) / 1.5);
+  width: var(--card-width);
+  height: var(--card-height);
+  perspective: 2500px;
+  margin: 0 20px;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: all 0.5s ease;
+}
+
+.wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.5s ease;
+}
+
+.wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to top,
+    transparent 46%,
+    rgba(12, 13, 19, 0.5) 68%,
+    rgba(12, 13, 19) 97%
+  );
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  z-index: 2;
+}
+
+.wrapper::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 120px;
+  background: linear-gradient(
+    to bottom,
+    transparent 46%,
+    rgba(12, 13, 19, 0.5) 68%,
+    rgba(12, 13, 19) 97%
+  );
+  opacity: 1;
+  transition: all 0.5s ease;
+  z-index: 2;
+}
+
+.coverImage {
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.title {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  z-index: 3;
+  transition: transform 0.5s ease;
+  margin: 0;
+  padding: 0 20px;
+}
+
+.characterContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  opacity: 0;
+  transition: all 0.5s ease;
+  transform: translateY(20px);
+}
+
+.character {
+  object-fit: contain;
+  object-position: center;
+}
+
+/* Hover Effects */
+.card:hover .wrapper {
+  transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0);
+  box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+}
+
+.card:hover .wrapper::before {
+  opacity: 1;
+}
+
+.card:hover .wrapper::after {
+  height: 140px;
+}
+
+.card:hover .title {
+  transform: translate3d(0%, -50px, 100px);
+}
+
+.card:hover .characterContainer {
+  opacity: 1;
+  transform: translate3d(0%, -30%, 100px);
+}
+
+/* Debug styles - remove these once working */
+.character {
+  border: 2px solid red !important;
+} 

@@ -12,6 +12,13 @@ module.exports = {
         secondary: '#2d3748',
         accent: '#e53e3e',
       },
+      fontFamily: {
+        'eurostile': ['"eurostile-condensed"', 'sans-serif'],
+        'eurostile-regular': ['"eurostile-condensed"', 'sans-serif'],
+        'eurostile-regular-italic': ['"eurostile-condensed"', 'sans-serif'],
+        'eurostile-heavy': ['"eurostile-condensed"', 'sans-serif'],
+        'eurostile-heavy-italic': ['"eurostile-condensed"', 'sans-serif'],
+      },
     },
   },
   plugins: [],

@@ -12,6 +12,7 @@ interface Props {
       name: string
       city: string
       description: string
+      id: string
     }[]
   }
 }
@@ -42,7 +43,7 @@ export default function StatePage({ state }: Props) {
               <p className="text-gray-600 mb-4">{location.city}</p>
               <p className="text-gray-600 mb-6">{location.description}</p>
               <Link
-                href={`/camps/${state.abbreviation.toLowerCase()}/${location.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`}
+                href={`/camps/${state.abbreviation.toLowerCase()}/${location.id}`}
                 className="inline-block bg-primary text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors"
               >
                 View Details
@@ -99,7 +100,8 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
         locations: state.locations.map(location => ({
           name: location.name,
           city: location.city,
-          description: location.description
+          description: location.description,
+          id: location.id
         }))
       }
     }

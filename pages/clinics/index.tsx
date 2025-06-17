@@ -1,5 +1,22 @@
 import React from 'react'
 import Link from 'next/link'
+import styled from 'styled-components'
+
+const RedBorderElement = styled.div`
+  border-left: 2px solid red;
+  border-bottom: 2px solid red;
+  border-top: 2px solid red;
+  border-radius: 0px 0px 0px 22px;
+  margin-left: 18px;
+  margin-right: 8px;
+  min-height: 76%;
+  width: 20px;
+  height: 130px;
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
 
 const clinics = [
   {
@@ -22,21 +39,26 @@ const clinics = [
 export default function ClinicsPage() {
   return (
     <div className="container mx-auto px-4 py-16 min-h-screen">
-      <h1 className="text-3xl font-bold text-center mb-12">UPCOMING CLINICS</h1>
-      <div className="max-w-2xl mx-auto space-y-8">
-        {clinics.map((clinic, idx) => (
-          <div key={idx} className="bg-white rounded-lg shadow-md p-8 flex flex-col md:flex-row md:items-center md:justify-between">
-            <div>
-              <h2 className="text-xl font-bold mb-2">{clinic.name}</h2>
-              <p className="text-gray-600 mb-4 md:mb-0">{clinic.date}</p>
-            </div>
-            <div>
-              <Link href={clinic.link} className="bg-accent hover:bg-red-700 text-white font-semibold px-8 py-3 rounded-lg transition-colors block text-center md:inline-block">
-                VIEW CLINIC
-              </Link>
-            </div>
+      <div className="flex">
+        <RedBorderElement />
+        <div className="flex-1">
+          <h1 className="text-3xl font-bold text-center mb-12">UPCOMING CLINICS</h1>
+          <div className="max-w-2xl mx-auto space-y-8">
+            {clinics.map((clinic, idx) => (
+              <div key={idx} className="bg-white rounded-lg shadow-md p-8 flex flex-col md:flex-row md:items-center md:justify-between">
+                <div>
+                  <h2 className="text-xl font-bold mb-2">{clinic.name}</h2>
+                  <p className="text-gray-600 mb-4 md:mb-0">{clinic.date}</p>
+                </div>
+                <div>
+                  <Link href={clinic.link} className="bg-accent hover:bg-red-700 text-white font-semibold px-8 py-3 rounded-lg transition-colors block text-center md:inline-block">
+                    VIEW CLINIC
+                  </Link>
+                </div>
+              </div>
+            ))}
           </div>
-        ))}
+        </div>
       </div>
     </div>
   )

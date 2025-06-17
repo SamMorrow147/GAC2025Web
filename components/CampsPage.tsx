@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import campData from '../content/camps/camp-locations.json'
+import CampCard from './CampCard'
+import TestCampCard from './TestCampCard'
 
 export default function CampsPage() {
   const [expandedState, setExpandedState] = useState<string | null>(null)
@@ -19,17 +21,7 @@ export default function CampsPage() {
   return (
     <div className="min-h-screen bg-gray-50">
       <div className="container mx-auto px-4 py-12">
-        {/* Header with Logo */}
         <div className="text-center mb-12">
-          <div className="flex justify-center mb-6">
-            <Image
-              src="/Logo/Insignia.png"
-              alt="Greg Carter Hockey"
-              width={120}
-              height={120}
-              className="object-contain"
-            />
-          </div>
           <h1 className="text-4xl font-bold mb-4">Summer Hockey Camps</h1>
           <p className="text-gray-600 max-w-2xl mx-auto">
             Our website is temporarily down but you can still register for Summer 2025 Summer Hockey Camps via the links below!
@@ -38,6 +30,21 @@ export default function CampsPage() {
             <br /><br />
             <strong>We look forward to seeing you on the ice this summer!</strong>
           </p>
+        </div>
+
+        {/* Test Component */}
+        <div className="flex justify-center mb-8">
+          <TestCampCard />
+        </div>
+
+        {/* Summer Camps Card Section */}
+        <div className="flex justify-center mb-16">
+          <CampCard
+            title="Summer Camps"
+            description="Learn the fundamentals of skating, stick handling, and shooting to build confidence and skills."
+            link="/camps"
+            coverImage="/Image Assets /camps.jpg"
+          />
         </div>
         
         <div className="max-w-3xl mx-auto space-y-4">
